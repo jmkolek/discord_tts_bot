@@ -1,0 +1,26 @@
+# Environment variables (never commit secrets)
+.env
+
+# Generated TTS audio files
+tts_*.mp3
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
